@@ -41,7 +41,7 @@ B) YouTube Data API Key
   1. Create the API Key:
     - Go to Google Cloud Console, select your project, and enable the YouTube Data API v3.
     - Create an API Key under APIs & Services → Credentials.
-  2. Store the API Key securely:
+  3. Store the API Key securely:
     - For Hugging Face users: Go to Settings → Secrets and add a new secret.
       - Name it YT_API_KEY and paste your API key.
     - For local setup:
