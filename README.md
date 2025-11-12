@@ -21,7 +21,7 @@ A) Google Sheets (Service Account)
   1. Create a Google Cloud Project:
     - Go to Google Cloud Console, create a new project, or select an existing one.
   2. Enable the APIs:
-    -Enable Google Sheets API and Google Drive API in your Google Cloud Console project.
+    - Enable Google Sheets API and Google Drive API in your Google Cloud Console project.
   3. Create a Service Account:
     - Go to IAM & Admin → Service Accounts and create a new service account.
     - Download the JSON credentials file for the service account.
