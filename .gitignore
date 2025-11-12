@@ -1,0 +1,7 @@
+streamlit_app.json
+*.pyc
+__pycache__/
+venv/
+.env/
+.DS_Store
+Thumbs.db

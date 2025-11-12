@@ -1,0 +1,11 @@
+streamlit
+google-api-python-client
+pandas
+numpy
+python-dateutil
+nltk
+beautifulsoup4
+wordcloud
+scikit-learn
+gspread
+oauth2client
