@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Google Sheets and YouTube API Setup
 
 A) Google Sheets (Service Account)
-  1.Create a Google Cloud Project:
+  1. Create a Google Cloud Project:
     - Go to Google Cloud Console, create a new project, or select an existing one.
   2. Enable the APIs:
     -Enable Google Sheets API and Google Drive API in your Google Cloud Console project.
