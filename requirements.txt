@@ -1,11 +1,32 @@
-streamlit
-google-api-python-client
-pandas
-numpy
-python-dateutil
-nltk
-beautifulsoup4
-wordcloud
-scikit-learn
-gspread
-oauth2client
+# Core
+streamlit>=1.20
+google-api-python-client>=2.70
+pandas>=1.5
+numpy>=1.24
+python-dateutil>=2.8
+nltk>=3.8
+beautifulsoup4>=4.12
+wordcloud>=1.8
+scikit-learn>=1.2
+gspread>=5.0
+oauth2client>=4.1
+
+# Networking / utils
+requests>=2.31
+python-dotenv>=1.0
+
+# Thumbnail analysis (images / OCR / CV)
+pillow>=9.4
+opencv-python>=4.7
+pytesseract>=0.3.10
+
+# Visualization
+altair>=5.2
+matplotlib>=3.7
+plotly>=5.16
+
+# Topic modeling helpers
+scipy>=1.10
+
+# Dev (optional)
+black>=24.3
