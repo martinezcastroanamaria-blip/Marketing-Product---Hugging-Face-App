@@ -8,6 +8,7 @@ The app utilizes the YouTube Data API and Natural Language Processing for sentim
 - Sentiment analysis on comments using VADER Sentiment Analysis.
 - Interactive visualizations like word clouds, sentiment trends, and engagement rate charts.
 - Automatically saves results to Google Sheets for long-term tracking and analysis.
+- Advanced thumbnail analysis using Tesseract OCR for text recognition and OpenCV for face detection.
 
 ##  Requirements
 All dependencies are listed in the `requirements.txt` file.
@@ -55,9 +56,22 @@ B) YouTube Data API Key
 To run the application locally, use the following command:
 streamlit run streamlit_app.py
 
+## Docker Setup
+You can also run this application using Docker. This is a great way to set up the app in an isolated environment.
+1. Build the Docker image:
+   -  In the root directory of the project (where your Dockerfile is located), build the Docker image by running the following command:
+       docker build -t youtube-ad-analyzer .
+
+2. Run the Docker container:
+   -  After building the image, run the container with the following command:
+       docker run -p 8501:8501 youtube-ad-analyzer
+
+This will start the application, and you can access it in your web browser by navigating to http://localhost:8501.
+
 ## Project Structure
   - streamlit_app.py -> Main Streamlit app
   - requirements.txt -> Python dependencies
+  - Dockerfile -> Docker configuration file
   - .gitignore       -> Git ignore file (to avoid uploading sensitive data)
   - .env.example     -> Example environment variable configuration
 
